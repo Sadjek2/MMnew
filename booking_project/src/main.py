@@ -31,5 +31,4 @@ def calc_endpoint(req: BookingRequest):
 
 @app.get("/health")
 def health():
-    """Проверка работоспособности."""
     return {"status": "ok"}

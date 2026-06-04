@@ -1,3 +1,5 @@
+#тестовый файл
+
 import threading
 import time
 
@@ -21,7 +23,7 @@ def worker():
     global errors
     start = time.perf_counter()
     try:
-        for _ in range(1000):  # выполняем 1000 раз
+        for _ in range(1000):
             calculate_total(500, 30, False, None)
     except:
         errors += 1

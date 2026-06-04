@@ -57,7 +57,7 @@ def test_max_price_integration():
     assert result == 4100
 
 
-
+#доптест
 def test_minimum_price_rule():
     """
     Ребенок (age < 18), цена билета 10 руб -> скидка 20% = 8 руб.
